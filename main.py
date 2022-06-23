@@ -94,7 +94,7 @@ def gather_users_segment(csv_file_path):
 
 				arr.append(int(row[4]))
 
-	return arr
+	return list(set(arr))
 
 
 def main():
